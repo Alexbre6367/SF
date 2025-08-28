@@ -1,6 +1,6 @@
 [versions]
 agp = "8.10.1"
-kotlin = "2.2.0"
+kotlin = "2.0.0"
 coreKtx = "1.16.0"
 junit = "4.13.2"
 junitVersion = "1.2.1"
@@ -10,8 +10,12 @@ activityCompose = "1.10.1"
 composeBom = "2024.09.00"
 boomVersion = "33.0.0"
 firebaseAuth = "23.2.1"
+generativeai = "0.9.0"
 
 [libraries]
+
+generativeai = { group = "com.google.ai.client.generativeai", name = "generativeai", version.ref = "generativeai" }
+
 firebase-bom = { group = "com.google.firebase", name = "firebase-bom", version.ref = "boomVersion" }
 firebase-firestore = { group = "com.google.firebase", name = "firebase-firestore-ktx" }
 firebase-auth = { group = "com.google.firebase", name = "firebase-auth-ktx"}

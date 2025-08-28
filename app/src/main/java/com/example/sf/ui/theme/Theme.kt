@@ -55,8 +55,13 @@ fun SFTheme(
     val systemUiController = rememberSystemUiController()
 
     SideEffect {
-        systemUiController.setSystemBarsColor(
-            color = Color.Black,
+        systemUiController.setStatusBarColor(
+            color = Color.Transparent,
+            darkIcons = true
+        )
+
+        systemUiController.setNavigationBarColor(
+            color = Color.Transparent,
             darkIcons = true
         )
     }
