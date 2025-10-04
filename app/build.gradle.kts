@@ -74,12 +74,11 @@ dependencies {
 
     implementation("androidx.activity:activity-compose:1.9.0")
     implementation("androidx.compose.material3:material3:1.2.1")
-    implementation ("com.google.accompanist:accompanist-systemuicontroller:0.32.0")
+    implementation("com.google.accompanist:accompanist-systemuicontroller:0.32.0")
     implementation("androidx.compose.material:material-icons-extended:1.7.8")
     implementation("androidx.navigation:navigation-compose:2.9.1")
 
     implementation("androidx.compose.foundation:foundation-layout:1.6.2")
-    implementation("com.google.accompanist:accompanist-systemuicontroller:0.32.0")
 
     implementation("androidx.security:security-crypto:1.1.0-alpha06")
     implementation(platform(libs.firebase.bom))

@@ -216,8 +216,7 @@ fun SignInScreen(
                 .padding(
                     start = 24.dp,
                     end = 24.dp,
-                    bottom = 24.dp + WindowInsets.navigationBars.asPaddingValues()
-                        .calculateBottomPadding()
+                    bottom = 24.dp + WindowInsets.navigationBars.asPaddingValues().calculateBottomPadding()
                 )
                 .align(Alignment.BottomCenter),
             horizontalAlignment = Alignment.CenterHorizontally
