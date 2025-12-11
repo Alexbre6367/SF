@@ -24,7 +24,6 @@ data class Fridge(
 @Entity(tableName = "meals")
 data class Meal(
     @PrimaryKey(autoGenerate = true)
-    @ColumnInfo(name = "mealId")
     var id: Int = 0,
 
     var mealTime: String = "",

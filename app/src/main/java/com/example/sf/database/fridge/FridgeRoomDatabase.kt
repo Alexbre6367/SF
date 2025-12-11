@@ -5,7 +5,7 @@ import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
 
-@Database(entities = [Fridge::class, Meal::class], version = 9)
+@Database(entities = [Fridge::class, Meal::class], version = 10, exportSchema = false)
 abstract class FridgeRoomDatabase: RoomDatabase() {
     abstract fun fridgeDao(): FridgeDAO
     abstract fun mealsDao(): MealsDAO

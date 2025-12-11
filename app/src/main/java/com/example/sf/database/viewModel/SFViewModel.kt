@@ -53,7 +53,6 @@ class SFViewModel(application: Application) : AndroidViewModel(application) {
             _isSelectedFood.value + id
         }
     }
-
     fun toggleMeal(id: Int) {
         _isSelectedMeal.value = if (id in _isSelectedMeal.value) {
             _isSelectedMeal.value - id

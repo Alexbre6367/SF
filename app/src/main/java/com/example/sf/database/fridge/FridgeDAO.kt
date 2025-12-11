@@ -27,7 +27,7 @@ interface MealsDAO {
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     suspend fun addMeal(meal: Meal)
 
-    @Query("DELETE FROM meals WHERE mealId = :id")
+    @Query("DELETE FROM meals WHERE id = :id")
     suspend fun deleteMeal(id: Int)
 
     @Update

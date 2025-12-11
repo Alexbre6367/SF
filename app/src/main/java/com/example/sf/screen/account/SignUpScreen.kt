@@ -123,7 +123,7 @@ fun SignUpScreen(
             IconButton(
                 onClick = {
                     keyboardController?.hide()
-                    navController.navigate("sign_up")
+                    navController.navigate("sign_in")
                 }
             ) {
                 Icon(

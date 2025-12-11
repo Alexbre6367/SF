@@ -119,8 +119,7 @@ fun HomeScreen(
             .clickable(
                 indication = null,
                 interactionSource = remember { MutableInteractionSource() }
-            )
-            {
+            ) {
                 viewModel.clearSelected()
             },
         containerColor = backgroundColor,
@@ -199,7 +198,6 @@ fun HomeScreen(
             }
         }
     ) { innerPadding ->
-
         Column(
             modifier = Modifier
                 .fillMaxSize()
